@@ -1,1 +1,155 @@
+/* Basic styling for form elements */
+.form-group {
+    margin-bottom: 15px;
+}
 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for the card element */
+#card-element {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Error message styling */
+#card-errors {
+    color: red;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styling for support buttons */
+.btn-support {
+    background-color: #007bff;
+    margin-top: 10px;
+}
+
+/* Adjust spacing between carousel items */
+.carousel-inner {
+    gap: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Styling for carousel navigation controls */
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 2rem;
+    color: #007bff;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Positioning for the previous button */
+.carousel-control-prev {
+    left: -60px;
+    margin-left: 10px;
+}
+
+/* Positioning for the next button */
+.carousel-control-next {
+    right: -60px;
+    margin-right: 10px;
+}
+
+/* Styling for carousel navigation control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 8 8"%3E%3Cpath d="M5.469 0.281c-0.187 0.187-0.187 0.5 0 0.687l1.781 1.781-1.781 1.781c-0.187 0.187-0.187 0.5 0 0.687 0.094 0.094 0.219 0.141 0.344 0.141s0.25-0.047 0.344-0.141l2.344-2.344c0.187-0.187 0.187-0.5 0-0.687l-2.344-2.344c-0.187-0.187-0.5-0.187-0.687 0z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Hover effect for carousel navigation controls */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #0056b3;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+    width: 0;
+    transition: width 0.6s ease;
+  }
+.card img {
+    height: 230px;
+    object-fit: cover;
+}  
+
+        /* Header Styling */
+        .navbar {
+            background-color: #007bff; /* Bluish color */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+        .navbar a {
+            color: #fff;
+        }
+
+        /* Slider Styling */
+        /* #header-slider {
+            margin-top: 20px;
+            max-height: 400px;
+        } */
+
+        #header-slider .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            color: #fff;
+        }
+
+        #header-slider h3 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #header-slider p {
+            font-size: 1.5rem;
+        }
